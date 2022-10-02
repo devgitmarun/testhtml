@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2014-2017 Eike Stepper (Loehne, Germany) and others.
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v2.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v20.html
+
+  Contributors:
+    Eike Stepper - initial API and implementation
+-->
+<feature
+      id="org.eclipse.oomph.setup.installer"
+      label="%featureName"
+      version="1.25.0.v20220607-1104"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="https://download.eclipse.org/oomph/updates"/>
+      <discovery label="%updateSiteName" url="https://download.eclipse.org/oomph/updates"/>
+   </url>
+
+   <includes
+         id="org.eclipse.oomph.p2"
+         version="1.23.0.v20220525-1027"/>
+
+   <includes
+         id="org.eclipse.emf.common"
+         version="2.26.0.v20220325-0806"/>
+
+   <includes
+         id="org.eclipse.emf.common.ui"
+         version="2.19.0.v20220226-1304"/>
+
+   <includes
+         id="org.eclipse.emf.ecore"
+         version="2.28.0.v20220426-0617"/>
+
+   <includes
+         id="org.eclipse.emf.edit"
+         version="2.18.0.v20220201-1551"/>
+
+   <includes
+         id="org.eclipse.emf.edit.ui"
+         version="2.23.0.v20220226-1304"/>
+
+   <includes
+         id="org.eclipse.rcp"
+         version="4.24.0.v20220607-0700"/>
+
+   <includes
+         id="org.eclipse.equinox.p2.core.feature"
+         version="1.6.1400.v20220518-1326"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup"
+         download-size="360"
+         install-size="1506"
+         version="1.24.0.v20220525-1027"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.edit"
+         download-size="180"
+         install-size="393"
+         version="1.16.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.installer"
+         download-size="893"
+         install-size="2019"
+         version="1.25.0.v20220601-1043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views"
+         download-size="105"
+         install-size="187"
+         version="3.11.100.v20210816-0811"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.net"
+         download-size="47"
+         install-size="91"
+         version="1.3.1200.v20220312-1450"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.net.linux"
+         os="linux"
+         download-size="14"
+         install-size="22"
+         version="1.0.100.v20220111-1854"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.net.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         download-size="7"
+         install-size="11"
+         version="1.1.600.v20220312-1450"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.updatesite"
+         download-size="100"
+         install-size="228"
+         version="1.2.300.v20220420-1427"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.net"
+         download-size="45"
+         install-size="84"
+         version="1.4.0.v20210426-0838"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsch.ui"
+         download-size="93"
+         install-size="180"
+         version="1.4.100.v20210917-1201"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.core"
+         download-size="334"
+         install-size="731"
+         version="1.24.0.v20220601-1043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.ui"
+         download-size="788"
+         install-size="1673"
+         version="1.24.0.v20220601-1043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.p2"
+         download-size="53"
+         install-size="116"
+         version="1.19.0.v20220607-1104"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.p2.edit"
+         download-size="28"
+         install-size="64"
+         version="1.14.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.base"
+         download-size="71"
+         install-size="145"
+         version="1.16.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.base.edit"
+         download-size="67"
+         install-size="142"
+         version="1.15.0.v20220601-1043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.junit"
+         download-size="59"
+         install-size="146"
+         version="1.3.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.preferences"
+         download-size="89"
+         install-size="191"
+         version="1.13.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.ui"
+         download-size="403"
+         install-size="792"
+         version="1.17.0.v20220601-1043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.util"
+         download-size="232"
+         install-size="430"
+         version="1.19.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui"
+         download-size="658"
+         install-size="1270"
+         version="2.7.500.v20220423-1604"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.ui"
+         download-size="170"
+         install-size="318"
+         version="1.3.200.v20220115-0654"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.util.doc"
+         download-size="1060"
+         install-size="7730"
+         version="1.13.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.doc"
+         download-size="2561"
+         install-size="21256"
+         version="1.13.0.v20220520-0625"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.setup.ui.questionnaire"
+         download-size="340"
+         install-size="443"
+         version="1.13.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.jreinfo"
+         download-size="40"
+         install-size="73"
+         version="1.17.0.v20220520-1242"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.jreinfo.ui"
+         download-size="57"
+         install-size="115"
+         version="1.15.0.v20220520-1242"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.oomph.jreinfo.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         download-size="31"
+         install-size="73"
+         version="1.8.0.v20220421-1218"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.oomph.extractor.lib"
+         download-size="26"
+         install-size="39"
+         version="1.9.0.v20220421-1218"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.sdk"
+         download-size="68"
+         install-size="132"
+         version="1.2.4.v20220213-1624"
+         unpack="false"/>
+
+</feature>
